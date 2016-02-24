@@ -32,7 +32,7 @@
 			ed.addButton('bibliotag', {
 				title : 'bibliotag.desc',
 				cmd : 'mceBiblioTag',
-				image: url+'/img/quote.png'
+				image: url + '/img/quotes.png'
 			});
 			
   		},
