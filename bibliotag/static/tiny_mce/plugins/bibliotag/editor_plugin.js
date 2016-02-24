@@ -31,10 +31,11 @@
 			// Register buttons
 			ed.addButton('bibliotag', {
 				title : 'bibliotag.desc',
-				cmd : 'mceBiblioTag'
+				cmd : 'mceBiblioTag',
+				image: url+'/img/quote.png'
 			});
-		},
-
+			
+  		},
 		getInfo : function() {
 			return {
 				longname : 'Biblio Tags for Drupal',

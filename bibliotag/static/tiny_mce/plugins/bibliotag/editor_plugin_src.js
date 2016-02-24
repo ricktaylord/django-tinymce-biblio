@@ -34,6 +34,11 @@
 				cmd : 'mceBiblioTag',
 				image: '../img/quotes.png'
 			});
+			var $ = tinymce.dom.DomQuery;
+			$('<link>')
+  				.appendTo('head')
+  				.attr({type : 'text/css', rel : 'stylesheet'})
+  				.attr('href', url + '/css/bibliotag.css');
 		},
 
 		getInfo : function() {

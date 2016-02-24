@@ -11,3 +11,4 @@
 input {width: 280px;}
 #constrain, #onmousemovecheck {width:auto;}
 #id, #dir, #lang, #usemap, #longdesc {width:200px;}
+.defaultSkin span.mce_bibliotag {background-position:-20px -920px;}
